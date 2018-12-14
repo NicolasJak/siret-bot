@@ -1,4 +1,4 @@
-// index.js
+// server.js
 const express = require('express');
 const bodyParser = require('body-parser');
 const config = require('./config.js');
@@ -6,7 +6,7 @@ const discoverSIRET = require('./discoverSIRET.js');
 
 const app = express();
 //1st console.log();
-console.log('Connexion a app');
+console.log('Acces au flile server');
 
 app.use(bodyParser.json());
 
