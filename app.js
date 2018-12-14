@@ -7,6 +7,9 @@ const discoverSIRET = require('./discoverSIRET.js');
 const app = express();
 app.use(bodyParser.json());
 
+//1st console.log();
+console.log('Connexion a apps');
+
 // Recast will send a post request to /errors to notify important errors
 // described in a json body
 app.post('/errors', (req, res) => {
