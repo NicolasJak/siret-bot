@@ -5,10 +5,10 @@ const config = require('./config.js');
 const discoverSIRET = require('./discoverSIRET.js');
 
 const app = express();
-app.use(bodyParser.json());
-
 //1st console.log();
-console.log('Connexion a apps');
+console.log('Connexion a app');
+
+app.use(bodyParser.json());
 
 // Recast will send a post request to /errors to notify important errors
 // described in a json body
